@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reservation code" skipped="0" tests="1" time="16.92" timestamp="2020-12-01 07:54:25"><testcase name="Search reservation code"><error message="1" type="java.lang.AssertionError">1</error><system-err>1&#13;
+co.com.choucair.certification.RetoLatam.stepdefinitions.latamStepdefinitions.validateTheReservationCode(latamStepdefinitions.java:36)&#13;
+✽.validate the size 5 of reservation code(src/test/resources/features/latamReto.feature:14)&#13;
+</system-err></testcase></testsuite>

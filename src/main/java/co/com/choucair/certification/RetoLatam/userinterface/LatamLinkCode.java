@@ -6,5 +6,6 @@ import org.openqa.selenium.By;
 
 public class LatamLinkCode extends PageObject {
 
-    public static final Target SPAN_LINKCODE = Target.the("Link where to find it ").located(By.xpath("//a[@data-testid='undefined-dialog-open-link']//span[1]"));
+
+    public static final Target LINK_CODE = Target.the(" Link of Code").located(By.xpath("//a[@data-testid='undefined-dialog-open-link']//span[1]"));
 }

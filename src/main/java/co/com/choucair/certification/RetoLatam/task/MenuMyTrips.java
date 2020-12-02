@@ -1,7 +1,6 @@
 package co.com.choucair.certification.RetoLatam.task;
 
 import co.com.choucair.certification.RetoLatam.userinterface.LatamMyTrips;
-import co.com.choucair.certification.RetoLatam.userinterface.LatanPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -18,5 +17,6 @@ public class MenuMyTrips implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Click.on(LatamMyTrips.MENU_MYTRIPS));
+
     }
 }

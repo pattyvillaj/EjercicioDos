@@ -1,14 +1,13 @@
 #Actor: Ana
 
 @stories
-Feature: Reservation code
-  As a Latam user, I want to find my reservation code
+ Feature: Reservation Code
 
-@scenario
- Scenario: Search reservation code
+@scenario1
+ Scenario: Search Reservation Code
 
-  Given than Ana wants to enter the latam page
+ Given than Ana Wants to enter Latam Page
 
-  When you enter the link where to find them
+ When she enter where to find them
 
-  Then validate the size 5 of reservation code
+ Then valitate the size 5 of reservation code

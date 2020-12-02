@@ -1,6 +1,5 @@
 package co.com.choucair.certification.RetoLatam.task;
 
-import co.com.choucair.certification.RetoLatam.userinterface.LatamDataTrip;
 import co.com.choucair.certification.RetoLatam.userinterface.LatamLinkCode;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -16,7 +15,6 @@ public class LinkCode implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(LatamLinkCode.SPAN_LINKCODE));
-
+        actor.attemptsTo(Click.on(LatamLinkCode.LINK_CODE));
     }
 }

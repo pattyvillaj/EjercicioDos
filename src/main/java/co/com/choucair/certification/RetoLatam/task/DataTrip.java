@@ -1,21 +1,21 @@
 package co.com.choucair.certification.RetoLatam.task;
 
-import co.com.choucair.certification.RetoLatam.userinterface.LatamDataTrips;
+import co.com.choucair.certification.RetoLatam.userinterface.LatamDataTrip;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-public class DataMyTrip implements Task {
+public class DataTrip implements Task {
 
-    public static DataMyTrip the() {
-        return Tasks.instrumented(DataMyTrip.class);
+    public static Performable the() {
+        return Tasks.instrumented(DataTrip.class);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(LatamDataTrips.DATA_TRIPS));
+        actor.attemptsTo(Click.on(LatamDataTrip.DATA_TRIP));
 
     }
 }

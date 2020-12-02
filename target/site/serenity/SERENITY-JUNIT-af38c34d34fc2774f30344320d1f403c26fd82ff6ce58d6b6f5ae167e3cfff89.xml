@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reservation Code" skipped="0" tests="1" time="20.92" timestamp="2020-12-02 06:22:51"><testcase name="Search Reservation Code"><error message="1" type="java.lang.AssertionError">1</error><system-err>1&#13;
-co.com.choucair.certification.RetoLatam.stepdefinitions.LatamStepDefinitions.valitateTheSizeOfReservationCode(LatamStepDefinitions.java:36)&#13;
-✽.valitate the size 5 of reservation code(src/test/resources/features/latamReto.feature:13)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reservation Code" skipped="0" tests="1" time="20.41" timestamp="2020-12-02 07:17:49"><testcase name="Search Reservation Code"><error message="1" type="java.lang.AssertionError">1</error><system-err>1&#13;
+co.com.choucair.certification.RetoLatam.stepdefinitions.LatamStepDefinitions.validateTheSizeOfReservationCode(LatamStepDefinitions.java:37)&#13;
+✽.validate the size 5 of reservation code(src/test/resources/features/latamReto.feature:13)&#13;
 </system-err></testcase></testsuite>

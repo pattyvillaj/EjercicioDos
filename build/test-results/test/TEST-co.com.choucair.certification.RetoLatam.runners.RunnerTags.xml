@@ -8,14 +8,14 @@
 
 1 Scenarios (?[31m1 failed?[0m)
 3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
-0m22,560s
+0m21,929s
 
 java.lang.AssertionError: 1
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
-	at co.com.choucair.certification.RetoLatam.stepdefinitions.LatamStepDefinitions.valitateTheSizeOfReservationCode(LatamStepDefinitions.java:36)
-	at ?.valitate the size 5 of reservation code(src/test/resources/features/latamReto.feature:13)
+	at co.com.choucair.certification.RetoLatam.stepdefinitions.LatamStepDefinitions.validateTheSizeOfReservationCode(LatamStepDefinitions.java:37)
+	at ?.validate the size 5 of reservation code(src/test/resources/features/latamReto.feature:13)
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

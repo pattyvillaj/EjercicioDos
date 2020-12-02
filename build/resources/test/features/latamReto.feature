@@ -3,11 +3,11 @@
 @stories
  Feature: Reservation Code
 
-@scenario1
+@senario1
  Scenario: Search Reservation Code
 
- Given than Ana Wants to enter Latam Page
+ Given than Ana wants enter the Latam page
 
  When she enter where to find them
 
- Then valitate the size 5 of reservation code
+ Then validate the size 5 of reservation code

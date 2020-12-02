@@ -8,7 +8,6 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
 public class LinkCode implements Task {
-
     public static LinkCode the() {
         return Tasks.instrumented(LinkCode.class);
     }
@@ -16,5 +15,6 @@ public class LinkCode implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Click.on(LatamLinkCode.LINK_CODE));
+
     }
 }
